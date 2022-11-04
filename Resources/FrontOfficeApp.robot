@@ -6,6 +6,13 @@ Resource    ./PO/TopNav.robot
 *** Variables ***
 
 
-*** Test Cases ***
+*** Keywords ***
+Go to "Team" Page
+    Team.Navigate To
 
+Go to "Landing" Page
+    Landing.Navigate To
+
+Validate "Team" Page
+    TopNav.Validate "Team" Page
 
